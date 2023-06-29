@@ -1,0 +1,15 @@
+{
+    "recipes": {
+        "nerd4ever/kaya-pabx-bundle": [
+            "1.0",
+            "dev-master"
+        ]
+    },
+    "branch": "main",
+    "is_contrib": true,
+    "_links": {
+        "repository": "github.com/nerd4ever/symfony-recipes",
+        "origin_template": "{package}:{version}@github.com/nerd4ever/symfony-recipes:main",
+        "recipe_template": "https://api.github.com/repos/nerd4ever/symfony-recipes/contents/{package_dotted}.{version}.json"
+    }
+}
