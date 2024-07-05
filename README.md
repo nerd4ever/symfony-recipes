@@ -20,8 +20,6 @@ Para usar estas receitas em seu projeto Symfony, você precisa adicionar este re
 ````
 Após essa configuração, quando você instalar um bundle da Nerd4ever via Composer, o Symfony Flex procurará uma receita correspondente neste repositório.
 
-## Receitas disponíveis
-* nerd4ever/kaya-pabx-bundle: Bundle de sistema de comutação telefônica (PABX) desenvolvido pela Empresa Nerd4ever
 
 ## Licença
 Todos os direitos reservados à Nerd4ever. Este projeto é de propriedade da Nerd4ever e não pode ser copiado ou reproduzido sem a permissão explícita da Nerd4ever.

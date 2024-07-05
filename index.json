@@ -1,15 +1,17 @@
 {
     "recipes": {
         "nerd4ever/kaya-pabx-bundle": [
-            "1.0",
-            "dev-master"
+            "1.0"
+        ],
+        "nerd4ever/kaya-oauth2-bundle": [
+            "1.0"
         ]
     },
-    "branch": "main",
+    "branch": "master",
     "is_contrib": true,
     "_links": {
         "repository": "github.com/nerd4ever/symfony-recipes",
-        "origin_template": "{package}:{version}@github.com/nerd4ever/symfony-recipes:main",
+        "origin_template": "{package}:{version}@github.com/nerd4ever/symfony-recipes:master",
         "recipe_template": "https://api.github.com/repos/nerd4ever/symfony-recipes/contents/{package}/{version}/manifest.json"
     }
 }

@@ -1,0 +1,27 @@
+kaya_oauth2:
+    idp:
+        # The base endpoint of the IDP (Identity Provider) server
+        realm_endpoint: "%env(IDP_REALM_ENDPOINT)%"
+        # The name of the Realm at the IDP
+        admin_realm_endpoint: "%env(IDP_ADMIN_REALM_ENDPOINT)%"
+        # The client ID for the user interface, used when a different client ID exists
+        client_realm_client_id: "%env(IDP_CLIENT_REALM_CLIENT_ID)%"
+        # The client ID used for managing user accounts and groups
+        admin_realm_client_id: "%env(IDP_ADMIN_REALM_CLIENT_ID)%"
+        # The client secret used for managing user accounts and groups
+        admin_realm_client_secret: "%env(IDP_ADMIN_REALM_CLIENT_SECRET)%"
+        # Account creation policy:
+        # always - always updates the local account
+        # never - never creates a local account, only authorizes the user
+        # once - creates the account only the first time, does not update on subsequent times
+        # Possible values: always, never, once
+        account_creation_policy: once
+        # SSL Certificate Verification:
+        # true - Verifies the validity of the IDP server's SSL certificate to prevent "man-in-the-middle" attacks.
+        # false - Does not verify the SSL certificate, useful in testing or development environments where certificates may not be properly configured.
+        verify: true
+        # Email Confirmation Check:
+        # true - Requires that the user's email be verified before allowing access.
+        # false - Allows access without the need for email confirmation.
+        # This setting is useful for environments that require additional identity verification or to simplify the login process in development or test environments.
+        require_verified_email: true

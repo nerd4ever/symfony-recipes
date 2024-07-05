@@ -1,6 +1,6 @@
 {
     "manifests": {
-        "nerd4ever/kaya-pabx-bundle": {
+        "acme/package-name": {
             "manifest": {
                 "aliases": [
                     "kaya-pabx-bundle",
@@ -26,7 +26,7 @@
                     "SECURITY_LAYER_LIBRARY": "%kernel.project_dir%/config/lib/kaya-manager.dll"
                 }
             },
-            "ref": "e73d2c324a192070e86e8f1d808d79207249e73d"
+            "ref": "e3ff0e15452f2149edf9df04964f9b537ec03341"
         }
     }
 }
